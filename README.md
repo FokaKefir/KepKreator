@@ -13,7 +13,8 @@ The plan is to generate images using Conditional Generative Adversial Nets (cGAN
  - EMNIST_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the EMNIST database
 
 ## Citations:
-"THE MNIST DATABASE of handwritten digits". Yann LeCun, Courant Institute, NYU Corinna Cortes, Google Labs, New York Christopher J.C. Burges, Microsoft Research, Redmond. Retrieved from: http://yann.lecun.com/exdb/mnist/ \
+"THE MNIST DATABASE of handwritten digits". Yann LeCun, Courant Institute, NYU Corinna Cortes, Google Labs, New York Christopher J.C. Burges, Microsoft Research, Redmond. Retrieved from: http://yann.lecun.com/exdb/mnist/
+
 Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension of MNIST to handwritten letters. Retrieved from http://arxiv.org/abs/1702.05373
 
 
