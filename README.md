@@ -1,6 +1,6 @@
 # KepKreator
 
-Team members:\\
+Team members: \
 Aszódi Zsombor
 Babos Dávid
 Kovács Gergely
