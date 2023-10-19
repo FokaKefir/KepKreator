@@ -10,4 +10,4 @@ The plan is to generate images using Conditional Generative Adversial Nets (cGAN
 
 ## Files in reposetory:
  - MNIST_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the MNIST database
- - EMNIST_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the MNIST database
+ - EMNIST_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the EMNIST database
