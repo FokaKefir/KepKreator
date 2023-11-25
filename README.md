@@ -15,7 +15,7 @@ The essambled cGAN model, which works on the basic MNIST database can be found i
  - MNIST_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the MNIST database
  - MNIST2_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the MNIST2 database
  - EMNIST_preprocess.ipynb  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Imports the EMNIST database
- - MNIST_GAN.ipynb &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> The cGAN model, which works on the basic MNIST database
+ - MNIST_GAN.ipynb &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> The cGAN model, which works on the basic MNIST database
 
 ## Citations:
 "THE MNIST DATABASE of handwritten digits". Yann LeCun, Courant Institute, NYU Corinna Cortes, Google Labs, New York Christopher J.C. Burges, Microsoft Research, Redmond. Retrieved from: http://yann.lecun.com/exdb/mnist/
