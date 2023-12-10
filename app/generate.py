@@ -33,10 +33,10 @@ cgan_num.load_models(
 )
 
 # load CGAN which generates letters
-cgan_letter = CGAN(latent_dim=100, n_classes=26)
+cgan_letter = CGAN(latent_dim=64, n_classes=26)
 cgan_letter.load_models(
-    'models/tmp-letter-model/generator.h5',
-    'models/tmp-letter-model/discriminator.h5'
+    'models/letter-model-zs/generator.h5',
+    'models/letter-model-zs/discriminator.h5'
 )
 
 # The models are loaded!
