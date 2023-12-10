@@ -1,1 +1,4 @@
+venv
+gan_images
+wandb
 images/
