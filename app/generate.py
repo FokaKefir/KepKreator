@@ -26,10 +26,10 @@ app.add_middleware(
 )
 
 # load CGAN which generates numbers 
-cgan_num = CGAN(latent_dim=100, n_classes=10)
+cgan_num = CGAN(latent_dim=96, n_classes=10)
 cgan_num.load_models(
-    'models/tmp-num-model/generator.h5', 
-    'models/tmp-num-model/discriminator.h5'
+    'models/num-model/generator.h5', 
+    'models/num-model/discriminator.h5'
 )
 
 # load CGAN which generates letters
@@ -117,7 +117,7 @@ def concate_and_save_image(text: str, path: str, num_images: np.ndarray, letter_
     # create an image object
     final_img = Image.fromarray(concatenated_img, mode="L")
 
-    # save image
+    # save the image
     final_img.save(path)
 
 @app.get("/generate/{text}")
