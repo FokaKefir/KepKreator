@@ -58,7 +58,7 @@ To stop the service just press `Ctrl+C`
 
 Feel free to generate images like this:
 
-![docs/example.jpg]()
+![](docs/example.jpg) 
 
 ## Files in repository
 
@@ -72,6 +72,12 @@ Feel free to generate images like this:
 | app repository | Contains all the files for the model interface |
 | validation_cnn.hdf5 | A small model with accuracy around 99% for inception score calculation |
 | MNIST_val_model.ipynb | Used for the training of the validation_cnn |
+| docs/Documentation.pdf | The documentation of the project |
+| docs/Documentation.tex | The elaboration of the documentation |
+
+## Documentation 
+
+You can find the final documentation of the project [here](docs/Documentation.pdf).
 
 ## Citations
 
