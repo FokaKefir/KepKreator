@@ -15,7 +15,7 @@ const generateHandWriting = () => {
   }
 
   const baseurl = "http://127.0.0.1:8000";
-  const path = `${baseurl}/generate/mnist/${inputValue}`;
+  const path = `${baseurl}/generate/${inputValue}`;
 
   fetch(path)
     .then((response) => {
