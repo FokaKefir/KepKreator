@@ -13,7 +13,7 @@
 
 </div>
 
----
+
 
 ## Overview
 
@@ -31,12 +31,12 @@
 ### 👥 Team Members
 
 | Name | Neptun Code | Institution |
-|------|-------------|-------------|
+|---|-------------|-------------|
 | **Aszódi Zsombor** | XJ43M0 | Budapest University of Technology and Economics |
 | **Babos Dávid** | Q1CGY7 | Faculty of Electrical Engineering and Informatics |
 | **Kovács Gergely** | JWV9WR | Deep Learning in Practice with Python and LUA |
 
----
+
 
 ## Table of Contents
 
@@ -56,7 +56,7 @@
 - [Citations](#citations)
 - [License](#license)
 
----
+
 
 ## Demo
 
@@ -70,7 +70,7 @@ The web interface allows users to input any combination of letters and numbers, 
 - 📊 Support for alphanumeric characters
 - 💾 Automatic image saving and retrieval
 
----
+
 
 ## Features
 
@@ -96,7 +96,7 @@ The web interface allows users to input any combination of letters and numbers, 
 - **Model Checkpointing**: Automatic saving of best models during training
 - **WandB Integration**: Comprehensive experiment tracking and visualization
 
----
+
 
 ## Architecture
 
@@ -126,7 +126,7 @@ The system consists of two competing neural networks trained simultaneously:
 - **Training Loop**: Alternating discriminator and generator updates
 - **Batch Size**: 32 (optimal balance between speed and quality)
 
----
+
 
 ## Installation
 
@@ -176,7 +176,7 @@ The system consists of two competing neural networks trained simultaneously:
    
    Press `Ctrl+C` in the terminal.
 
----
+
 
 ## Usage
 
@@ -220,7 +220,7 @@ labels = np.array([3, 1, 4, 1, 5]).reshape(-1, 1)
 images = cgan.generate_images(labels)
 ```
 
----
+
 
 ## Project Structure
 
@@ -254,7 +254,7 @@ KepKreator/
 └── README.md                    # This file
 ```
 
----
+
 
 ## Model Training
 
@@ -306,7 +306,7 @@ Open `EMNIST_GAN.ipynb` for letter generation with similar configuration.
 - **`EMNIST_preprocess.ipynb`**: Process EMNIST letters dataset
 - **`MNIST2_preprocess.ipynb`**: Create multi-digit combinations
 
----
+
 
 ## Evaluation Metrics
 
@@ -348,7 +348,7 @@ WCIS(X;Y) = exp{ E[I(X_C; Y_C)] }
 
 **Lower is better** - indicates focused generation within conditioned classes.
 
----
+
 
 ## Hyperparameter Optimization
 
@@ -382,7 +382,7 @@ tuner = keras_tuner.RandomSearch(
 - **Tanh activation** outperforms LeakyReLU for this architecture
 - **No batch normalization** yields better discriminator-generator balance
 
----
+
 
 ## API Documentation
 
@@ -419,7 +419,7 @@ GET /generate/{text}
 - `build_generator(latent_dim, n_classes)`: Construct generator network
 - `build_discriminator(n_classes)`: Construct discriminator network
 
----
+
 
 ## Results
 
@@ -446,7 +446,7 @@ Training progression shows continuous improvement:
 - **Mid-training**: Recognizable digit/letter shapes
 - **Late training**: Clean, realistic handwritten characters
 
----
+
 
 ## Future Work
 
@@ -462,7 +462,7 @@ Training progression shows continuous improvement:
 - 🔄 User-specific handwriting style adaptation
 - 🔄 Mobile application deployment
 
----
+
 
 ## Documentation
 
@@ -475,7 +475,7 @@ The IEEE-format paper provides comprehensive coverage of:
 - Experimental results and analysis
 - Comparative studies and ablation tests
 
----
+
 
 ## Citations
 
@@ -511,13 +511,13 @@ The IEEE-format paper provides comprehensive coverage of:
    Benny, Y., et al. (2021). "Evaluation metrics for conditional image generation."  
    International Journal of Computer Vision, 129, 1712-1731.
 
----
+
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
+
 
 ## Acknowledgments
 
@@ -525,7 +525,7 @@ This project was developed as part of the **Deep Learning in Practice with Pytho
 
 Special thanks to the course instructors and the open-source community for providing essential tools and datasets.
 
----
+
 
 <div align="center">
 
